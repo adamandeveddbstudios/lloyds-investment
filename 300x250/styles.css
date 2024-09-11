@@ -141,36 +141,43 @@ sup {
 }
 .copy1{
   font-size: 60px;
-  top: 100px;
-  left: -80px;
+  /* top: 120px; */
+  left: 18px;
   letter-spacing: -0.3px;
 }
-.copy span{
-  top: 13px;
+#lineone{
+  top: 150px;
   position: absolute;
   left: -10px;
   letter-spacing: -0.9px;
-
+}
+#linetwo{
+  width: 220px;
+  top: 200px;
+  letter-spacing: -0.3px;
+  position: absolute;
 }
 .copy2{
   font-size: 34px;
-  top: 64px;
-  left: -80px;
+  top: 100px;
+  left: 18px;
   line-height: 32px;
 }
 .copy3{
   top: 31px;
   color: #000;
-  left: 42px;
+  left: -215px;
   font-size: 32.5px;
+  width: 218px;
 }
 .copy4{
   font-family: "GTU-Light";
   font-size: 14px;
   text-align: center;
   top: 79px;
-  left: 59px;
+  left: -180px;
   line-height: 14px;
+  width: 182px;
 }
 .legal{
   font-family: "GTU-Light";
@@ -197,6 +204,12 @@ sup {
   align-items: center;
   justify-content: center;
 }
+#green{
+  background-color: #6cf479;
+  width: 300px;
+  height: 250px;
+  left: -300px;
+}
 /* 
 #imageWrapper {
   transform-origin: 50% 65%;
@@ -207,3 +220,22 @@ sup {
   transform-origin: 50% 89%;
 }
  */
+
+
+
+ /* horse */
+ .horse_static{
+  top: 177px;
+  left: -133px;
+  width: 35px;
+ }
+ .horse_gif{
+  top: 173px;
+  left: 126px;
+  width: 49px;
+ }
+ .logo_text{
+  top: 214px;
+  left: -115px;
+  width: 71px;
+ }

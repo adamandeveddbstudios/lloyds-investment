@@ -24,19 +24,27 @@ function animate() {
   tl.set(['#copy1, #copy2'],{rotation: 0.1, force3D:true});
 
   tl.addLabel('frame1', 0)    
-  .to(['#copy1'], 0.5, {left:'18px', autoAlpha: 1, ease: Power1.easeIn}, 'frame1+=0.5')
-  tl.addLabel('frame2', 3)
-  .to(['#copy1'], 0.5, {autoAlpha: 0, ease: Power1.easeIn}, 'frame2')
-  .to(['#copy2'], 0.5, {left:'18px', autoAlpha: 1, ease: Power1.easeIn}, 'frame2+=0.5')
-  tl.addLabel('frame3', 6)
-  .to(['#copy2'], 0.5, {autoAlpha: 0, ease: Power1.easeIn}, 'frame3')
-  .to(['#cover'], 0.5, {autoAlpha: 0, ease: Power1.easeIn}, '<')
-  .to(['#logo'], 0.5, {autoAlpha: 0, ease: Power1.easeIn}, '<')
-  .to(['#legal'], 0.5, {color: '#000', ease: Power1.easeIn}, '<')
-  .to(['#copy3'], 0.5, {autoAlpha: 1, ease: Power1.easeIn}, 'frame3+=0.5')
-  .to(['#copy4'], 0.5, {autoAlpha: 1, ease: Power1.easeIn}, 'frame3+=1')
-  .to(['#cta'], 0.5, {autoAlpha: 1, ease: Power1.easeIn}, 'frame3+=1.5')
-  .to(['#logo2'], 0.5, {autoAlpha: 1, ease: Power1.easeIn}, 'frame3+=2')
+  .to(['#lineone'], 0.5, {top:'114px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame1')
+  .to(['#linetwo'], 0.5, {top:'165px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame1+=0.3')
+
+  tl.addLabel('frame2', 2)
+  .to(['#lineone, #linetwo'], 0.5, {autoAlpha: 0, ease: "power1.inOut", yoyo: true }, 'frame2')
+  .to(['#copy2'], 0.5, {top:'64px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame2+=.5')
+
+  tl.addLabel('frame3', 5)
+  .to(['#copy2'], 0.5, {autoAlpha: 0, ease: "power1.inOut", yoyo: true }, 'frame3')
+  .to(['#green'], 0.5, {left:'0px', autoAlpha: 1, ease: "power1.inOut",}, 'frame3+=.5')
+  .to(['#legal'], 0.5, {color: '#000', ease: "power1.inOut",}, '<')
+  .to(['#copy3'], 0.5, {left:'42px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=.6')
+  .to(['#horse'], 0.5, {left:'133px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=.6')
+  .to(['#logo_text'], 0.5, {left:'115px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=.7')
+  .to(['#horse'], 0.5, {autoAlpha: 0, ease: "power1.inOut", }, 'frame3+=1.5')
+  .to(['#horse_gif'], 0.5, {autoAlpha: 1, ease: "power1.inOut", yoyo: true }, '<')
+
+  .to(['#copy3'], 0.5, {left:'302px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=1.8')
+  .to(['#copy4'], 0.5, {left:'59px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=2.3')
+  .to(['#cta'], 0.5, {autoAlpha: 1, ease: "power1.inOut", }, 'frame3+=3.2')
+
 
 }
 
