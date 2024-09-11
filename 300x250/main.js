@@ -41,8 +41,8 @@ function animate() {
   .to(['#horse'], 0.5, {autoAlpha: 0, ease: "power1.inOut", }, 'frame3+=1.5')
   .to(['#horse_gif'], 0.5, {autoAlpha: 1, ease: "power1.inOut", yoyo: true }, '<')
 
-  .to(['#copy3'], 0.5, {left:'302px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=1.8')
-  .to(['#copy4'], 0.5, {left:'59px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=2.3')
+  // .to(['#copy3'], 0.5, {left:'302px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=1.8')
+  .to(['#copy4'], 0.5, {left:'59px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=1.8')
   .to(['#cta'], 0.5, {autoAlpha: 1, ease: "power1.inOut", }, 'frame3+=3.2')
 
 
