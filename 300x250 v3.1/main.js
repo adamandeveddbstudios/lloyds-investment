@@ -48,10 +48,10 @@ function animate() {
     .to(['#horse'], 1.5, { left: '133px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=.6')
     .to(['#logo_text'], 1.5, { left: '115px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=.7')
     .to(['#horse'], 1.5, { autoAlpha: 0, ease: "power1.inOut", }, 'frame3+=1.5')
-    .to(['#horse_gif'], 1.5, { autoAlpha: 1, ease: "power1.inOut", yoyo: true }, '<')
+    .to(['#horse_gif'], 1.5, { autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=1.7')
 
 
-    .to(['#copy4'], { autoAlpha: 1, ease: "power1.inOut", }, 'frame3+=1.7')
+    .to(['#copy4'], { autoAlpha: 1, ease: "power1.inOut", }, 'frame3+=1.9')
     .staggerTo(['.copy4 span',], 1.5, { x: "0", ease: Power2.easeOut, }, 0.08, '<')
 
 
