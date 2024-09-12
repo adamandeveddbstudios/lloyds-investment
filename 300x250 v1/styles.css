@@ -1,0 +1,245 @@
+body,
+body * {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img{
+	border: 0
+}
+
+button,
+div,
+img,
+svg,
+video {
+  position: absolute;
+}
+
+sup {
+  vertical-align: top;
+}
+
+#main_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 250px;
+  background-color: #6cf479;
+  border: 1px solid #000;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+#main_content {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 300px;
+  height: 250px;
+}
+
+.retina {
+  /*    for display on retina screens images created @2x actual dimensions then scaled back by 50%.
+  images are scaled from top left, which effects css when wanting to use other alignment
+  e.g. bottom:0; right:0; also requires transform-origin:bottom right;
+  02/2016 webkit browsers:
+  images including their containers must be block or inline-block.
+  if css display:none or display:inline then transforms fail.
+  */
+  -webkit-transform: scale(0.5, 0.5);
+  -moz-transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+  -webkit-transform-origin: left top;
+  -moz-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+
+  /* image-rendering: auto; */
+  /*image-rendering: crisp-edges;*/
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#default_exit {
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 250px;
+  z-index: 500;
+}
+
+.btn {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+  background: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+  z-index: 200;
+}
+
+:focus {
+  outline: 0;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+/* Custom Styles */
+
+@font-face {
+  font-family: "GTU-Black";
+  src: url("./fonts/subset-GTUltraMedianLloyds-Black.woff");
+}
+
+@font-face {
+  font-family: "GTU-Light";
+  src: url("./fonts/subset-GTUltraLloyds-Light.woff");
+}
+
+
+/* Images Styles */
+
+.canvasImage {
+	width: 300px;
+	height: 250px;
+}
+.logo{
+  width: 72px;
+  top: 11px;
+  left: 22px;
+}
+.logo2{
+  width: 72px;
+  top: 178px;
+  left: 114px;
+}
+.copy{
+  font-family: "GTU-Black";
+  color: #fff;
+}
+.copy1{
+  font-size: 60px;
+  /* top: 120px; */
+  left: 18px;
+  letter-spacing: -0.3px;
+}
+#lineone{
+  top: 150px;
+  position: absolute;
+  left: -10px;
+  letter-spacing: -0.9px;
+}
+#linetwo{
+  width: 220px;
+  top: 200px;
+  letter-spacing: -0.3px;
+  position: absolute;
+}
+.copy2{
+  font-size: 34px;
+  top: 100px;
+  left: 18px;
+  line-height: 32px;
+}
+.copy3{
+  top: 31px;
+  color: #000;
+  left: -215px;
+  font-size: 32.5px;
+  width: 218px;
+}
+.copy4{
+  font-family: "GTU-Light";
+  font-size: 14px;
+  text-align: center;
+  top: 79px;
+  line-height: 14px;
+  width: 300px;
+}
+.copy4 span{
+  display: block;
+  width: 100%;
+  text-align: center;
+ }
+.legal{
+  font-family: "GTU-Light";
+  font-size: 11.3px;
+  color: #fff;
+  text-align: center;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+  /* left: 22px; */
+}
+.cta{
+  font-family: "GTU-Black";
+  color: #000;
+  font-size: 13.5px;
+  top: 135px;
+  left: 103px;
+  width: 94px;
+  height: 28px;
+  border-radius: 50px;
+  border: #000 solid 1px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#green{
+  background-color: #6cf479;
+  width: 300px;
+  height: 250px;
+  left: -300px;
+}
+/* 
+#imageWrapper {
+  transform-origin: 50% 65%;
+  transform: scale(2);
+}
+
+#cta {
+  transform-origin: 50% 89%;
+}
+ */
+
+
+
+ /* horse */
+ .horse_static{
+  top: 177px;
+  left: -133px;
+  width: 35px;
+ }
+ .horse_gif{
+  top: 173px;
+  left: 126px;
+  width: 49px;
+ }
+ .logo_text{
+  top: 214px;
+  left: -115px;
+  width: 71px;
+ }
