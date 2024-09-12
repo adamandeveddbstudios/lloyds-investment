@@ -35,7 +35,7 @@ sup {
   top: 0;
   left: 0;
   width: 300px;
-  height: 250px;
+  height: 600px;
   background-color: #6cf479;
   border: 1px solid #000;
   overflow: hidden;
@@ -53,7 +53,7 @@ sup {
   top: -1px;
   left: -1px;
   width: 300px;
-  height: 250px;
+  height: 600px;
 }
 
 .retina {
@@ -85,7 +85,7 @@ sup {
   top: 0px;
   left: 0px;
   width: 300px;
-  height: 250px;
+  height: 600px;
   z-index: 500;
 }
 
@@ -123,12 +123,12 @@ sup {
 
 .canvasImage {
 	width: 300px;
-	height: 250px;
+	height: 600px;
 }
 .logo{
-  width: 72px;
-  top: 11px;
-  left: 22px;
+  width: 86px;
+  top: 21px;
+  left: 25px;
 }
 .logo2{
   width: 72px;
@@ -140,43 +140,45 @@ sup {
   color: #fff;
 }
 .copy1{
-  font-size: 60px;
+  font-size: 69px;
   /* top: 120px; */
   left: 18px;
   letter-spacing: -0.3px;
 }
 #lineone{
-  top: 150px;
+  top: 470px;
   position: absolute;
   left: -10px;
   letter-spacing: -0.9px;
 }
 #linetwo{
-  width: 220px;
-  top: 200px;
+  width: 300px;
+  top: 530px;
   letter-spacing: -0.3px;
   position: absolute;
 }
 .copy2{
-  font-size: 34px;
-  top: 100px;
-  left: 18px;
-  line-height: 32px;
+  font-size: 50px;
+  top: 370px;
+  left: 23px;
+  line-height: 48px;
 }
 .copy3{
-  top: 31px;
+  top: 112px;
   color: #000;
-  left: -215px;
-  font-size: 32.5px;
-  width: 218px;
+  font-size: 52.5px;
+  width: 300px;
+  text-align: center;
+  left: -300px;
 }
 .copy4{
   font-family: "GTU-Light";
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
-  top: 79px;
-  line-height: 14px;
+  top: 248px;
+  line-height: 22px;
   width: 300px;
+  text-align: center;
 }
 .copy4 span{
   display: block;
@@ -185,22 +187,21 @@ sup {
  }
 .legal{
   font-family: "GTU-Light";
-  font-size: 11.3px;
+  font-size: 11.5px;
   color: #fff;
   text-align: center;
-  bottom: 5px;
+  bottom: 11px;
   width: 100%;
   text-align: center;
-  /* left: 22px; */
 }
 .cta{
   font-family: "GTU-Black";
   color: #000;
-  font-size: 13.5px;
-  top: 135px;
-  left: 103px;
-  width: 94px;
-  height: 28px;
+  font-size: 17.5px;
+  top: 362px;
+  left: 79px;
+  width: 143px;
+  height: 42px;
   border-radius: 50px;
   border: #000 solid 1px;
   text-align: center;
@@ -211,7 +212,7 @@ sup {
 #green{
   background-color: #6cf479;
   width: 300px;
-  height: 250px;
+  height: 600px;
   left: -300px;
 }
 /* 
@@ -229,17 +230,18 @@ sup {
 
  /* horse */
  .horse_static{
-  top: 177px;
+  top: 432px;
   left: -133px;
-  width: 35px;
+  width: 48px;
  }
  .horse_gif{
-  top: 173px;
-  left: 126px;
-  width: 49px;
+  top: 425px;
+  left: 117px;
+  width: 70px;
  }
  .logo_text{
-  top: 214px;
-  left: -115px;
-  width: 71px;
+  top: 482px;
+  left: -101px;
+  width: 99px;
  }
+ 
