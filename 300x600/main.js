@@ -21,18 +21,27 @@ function init() {
 
 function animate() {
   tl.set(['#main_content'], { autoAlpha:1, rotation: 0.1, force3D:true });
-  tl.set(['#copy1, #copy2'],{rotation: 0.1, force3D:true});
+  // tl.set(['#copy1, #copy2'],{rotation: 0.1, force3D:true});
+
+  tl.set(['#lineone, #linetwo, #linethree'],{y:'100%'});
   
   tl.set(['.copy4 span',], { x: "-100%", ease: Power2.easeOut })
 
 
-  tl.addLabel('frame1', 0)    
-  .to(['#lineone'], 1, {top:'436px', autoAlpha: 1, ease: 'bounce.out', yoyo: true }, 'frame1')
-  .to(['#linetwo'], 1, {top:'497px', autoAlpha: 1, ease: 'bounce.out', yoyo: true }, 'frame1+=0.5')
+  tl.addLabel('frame1', 0) 
+  
+  .to(['#lineone, #linetwo'], 0, {autoAlpha: 1, }, 'frame1')
+
+  .to(['#lineone'], 1, {y:'0px', autoAlpha: 1, ease: 'bounce.out', yoyo: true }, 'frame1')
+  .to(['#linetwo'], 1, {y:'0px', autoAlpha: 1, ease: 'bounce.out', yoyo: true }, 'frame1+=0.5')
+
 
   tl.addLabel('frame2', 2)
   .to(['#lineone, #linetwo'], 0.5, {autoAlpha: 0, ease: "power1.inOut", yoyo: true }, 'frame2')
-  .to(['#copy2'], 1, {top:'324px', autoAlpha: 1, ease: 'bounce.out', yoyo: true }, 'frame2+=.5')
+
+  .to(['#linethree'], 0, {autoAlpha: 1, }, 'frame2')
+  .to(['#linethree'], 1, {y:'0px', autoAlpha: 1, ease: 'bounce.out', yoyo: true }, 'frame2+=0.5')
+  // .to(['#copy2'], 1, {y:'0px', autoAlpha: 1, ease: 'bounce.out', yoyo: true }, 'frame2+=.5')
 
   tl.addLabel('frame3', 5)
   .to(['#copy2'], 0.5, {autoAlpha: 0, ease: "power1.inOut", yoyo: true }, 'frame3')
