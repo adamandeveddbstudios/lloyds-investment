@@ -212,14 +212,21 @@ sup {
   letter-spacing: -1.1px;
 }
 .copy4{
-  font-family: "GTU-Bold";
+  /* font-family: "GTU-Bold";
   font-size: 9.6px;
-  /* text-align: center; */
   top: 12.5px;
   line-height: 11.4px;
   width: 320px;
-  /* text-align: center; */
+  left: 10px; */
+
+  font-family: "GTU-Bold";
+  font-size: 16px;
+  top: 7.5px;
+  line-height: 17.4px;
+  width: 320px;
   left: 10px;
+  transform: scale(0.570);
+  transform-origin: left;
 }
 .copy4 span{
   display: block;
