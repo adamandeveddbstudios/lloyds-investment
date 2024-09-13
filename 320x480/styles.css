@@ -7,15 +7,15 @@ body * {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-img {
-  border: 0
+img{
+	border: 0
 }
 
 button,
@@ -34,8 +34,8 @@ sup {
   position: absolute;
   top: 0;
   left: 0;
-  width: 300px;
-  height: 250px;
+  width: 320px;
+  height: 480px;
   background-color: #6cf479;
   border: 1px solid #000;
   overflow: hidden;
@@ -52,8 +52,8 @@ sup {
   position: absolute;
   top: -1px;
   left: -1px;
-  width: 300px;
-  height: 250px;
+  width: 320px;
+  height: 480px;
 }
 
 .retina {
@@ -84,8 +84,8 @@ sup {
 #default_exit {
   top: 0px;
   left: 0px;
-  width: 300px;
-  height: 250px;
+  width: 320px;
+  height: 480px;
   z-index: 500;
 }
 
@@ -122,30 +122,26 @@ sup {
 /* Images Styles */
 
 .canvasImage {
-  width: 300px;
-  height: 250px;
+	width: 320px;
+	height: 480px;
 }
-
-.logo {
-  width: 72px;
-  top: 11px;
-  left: 22px;
+.logo{
+  width: 86px;
+  top: 12px;
+  left: 24px;
 }
-
-.logo2 {
+.logo2{
   width: 72px;
   top: 178px;
   left: 114px;
 }
-
-.copy {
+.copy{
   font-family: "GTU-Black";
   color: #fff;
 }
-
 .copy1 {
-  font-size: 69px;
-  bottom: 26px;
+  font-size: 60px;
+  bottom: 4px;
   left: 0px;
   letter-spacing: -0.3px;
   position: absolute;
@@ -158,8 +154,8 @@ sup {
 .yes {
   position: relative;
   overflow: hidden;
-  height: 100px;
-  margin-bottom: -30px;
+  height: 81px;
+  margin-bottom: -22px;
 }
 
 
@@ -179,23 +175,11 @@ sup {
   letter-spacing: -0.3px;
   position: absolute;
 }
-
-/* .copy2{
-  font-size: 50px;
-  left: 3px;
-  line-height: 48px;
-  width: 300px;
-  overflow: hidden;
-  height: 270px;
-  bottom: 32px;
-  position: absolute;
-} */
-
 .copy2 {
-  font-size: 34px;
-  top: 64px;
-  left: 18px;
-  line-height: 32px;
+  font-size: 48px;
+  top: 216px;
+  left: 21px;
+  line-height: 50px;
   width: 100%;
   height: auto;
 }
@@ -203,7 +187,7 @@ sup {
 .copy2 div {
   position: relative;
   width: 200px;
-  height: 38px;
+  height: 52px;
   margin-bottom: -5px;
   overflow: hidden;
 }
@@ -211,49 +195,45 @@ sup {
 .copy2 span {
   position: absolute;
 }
-
-.copy3 {
-  top: 31px;
+.copy3{
+  top: 38px;
   color: #000;
-  left: -215px;
-  font-size: 32.5px;
-  width: 250px;
-}
-
-.copy4 {
-  font-family: "GTU-Light";
-  font-size: 14px;
+  font-size: 52.5px;
+  width: 320px;
   text-align: center;
-  top: 79px;
-  line-height: 14px;
-  width: 300px;
+  left: -300px;
 }
-
-.copy4 span {
+.copy4{
+  font-family: "GTU-Light";
+  font-size: 20px;
+  text-align: center;
+  top: 176px;
+  line-height: 23px;
+  width: 320px;
+  text-align: center;
+}
+.copy4 span{
   display: block;
   width: 100%;
   text-align: center;
-}
-
-.legal {
+ }
+.legal{
   font-family: "GTU-Light";
-  font-size: 11.3px;
+  font-size: 12.6px;
   color: #fff;
   text-align: center;
-  bottom: 5px;
+  bottom: 9px;
   width: 100%;
   text-align: center;
-  /* left: 22px; */
 }
-
-.cta {
+.cta{
   font-family: "GTU-Black";
   color: #000;
-  font-size: 13.5px;
-  top: 135px;
-  left: 103px;
-  width: 94px;
-  height: 28px;
+  font-size: 19.5px;
+  top: 290px;
+  left: 88px;
+  width: 145px;
+  height: 43px;
   border-radius: 50px;
   border: #000 solid 1px;
   text-align: center;
@@ -261,14 +241,12 @@ sup {
   align-items: center;
   justify-content: center;
 }
-
-#green {
+#green{
   background-color: #6cf479;
-  width: 300px;
-  height: 250px;
-  left: -300px;
+  width: 320px;
+  height: 480px;
+  left: -320px;
 }
-
 /* 
 #imageWrapper {
   transform-origin: 50% 65%;
@@ -282,21 +260,20 @@ sup {
 
 
 
-/* horse */
-.horse_static {
-  top: 177px;
+ /* horse */
+ .horse_static{
+  top: 362px;
   left: -133px;
-  width: 35px;
-}
-
-.horse_gif {
-  top: 173px;
-  left: 126px;
-  width: 49px;
-}
-
-.logo_text {
-  top: 214px;
-  left: -115px;
-  width: 71px;
-}
+  width: 47px;
+ }
+ .horse_gif{
+  top: 425px;
+  left: 117px;
+  width: 70px;
+ }
+ .logo_text{
+  top: 411px;
+  left: -101px;
+  width: 99px;
+ }
+ 

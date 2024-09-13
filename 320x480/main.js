@@ -37,22 +37,20 @@ function animate() {
     .to(['#copy2'], 0, { autoAlpha: 1, ease: 'back.out', yoyo: true }, 'frame2+=.5')
     .staggerTo(['.copy2 span',], 1, { y: "0", autoAlpha: 1, ease: 'back.out', yoyo: true }, 0.25, 'frame2+=.5')
 
-  // tl.addLabel('frame3', 5)
-  //   .to(['#copy2'], 0.5, { autoAlpha: 0, ease: "power1.inOut", yoyo: true }, 'frame3')
-  //   .to(['#green'], 0.5, { left: '0px', autoAlpha: 1, ease: "power1.inOut", }, 'frame3+=.5')
-  //   .to(['#legal'], 0.5, { color: '#000', ease: "power1.inOut", }, '<')
-  //   .to(['#copy3'], 1, { left: '0px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=.6')
-  //   .to(['#horse'], 1, { left: '128px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=.6')
-  //   .to(['#logo_text'], 1, { left: '101px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=.7')
-  //   // .to(['#horse'], 1, { autoAlpha: 0, ease: "power1.inOut", }, 'frame3+=1.5')
-  //   // .to(['#horse_gif'], 1, { autoAlpha: 1, ease: "power1.inOut", yoyo: true }, '<')
+  tl.addLabel('frame3', 5)
+    .to(['#copy2'], 0.5, { autoAlpha: 0, ease: "power1.inOut", yoyo: true }, 'frame3')
+    .to(['#green'], 0.5, { left: '0px', autoAlpha: 1, ease: "power1.inOut", }, 'frame3+=.5')
+    .to(['#legal'], 0.5, { color: '#000', ease: "power1.inOut", }, '<')
+    .to(['#copy3'], 1, { left: '0px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=.6')
+    .to(['#horse'], 1, { left: '138px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=.6')
+    .to(['#logo_text'], 1, { left: '111px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=.7')
+    // .to(['#horse'], 1, { autoAlpha: 0, ease: "power1.inOut", }, 'frame3+=1.5')
+    // .to(['#horse_gif'], 1, { autoAlpha: 1, ease: "power1.inOut", yoyo: true }, '<')
 
-  //   .to(['#copy4'], { autoAlpha: 1, ease: "power1.inOut", }, 'frame3+=1.7')
-  //   .staggerTo(['.copy4 span',], 1, { x: "0", ease: Power2.easeOut, }, 0.05, '<')
+    .to(['#copy4'], { autoAlpha: 1, ease: "power1.inOut", }, 'frame3+=1.7')
+    .staggerTo(['.copy4 span',], 1, { x: "0", ease: Power2.easeOut, }, 0.05, '<')
 
-  //   .to(['#cta'], 0.5, { autoAlpha: 1, ease: "power1.inOut", }, 'frame3+=3.2')
-
-
+    .to(['#cta'], 0.5, { autoAlpha: 1, ease: "power1.inOut", }, 'frame3+=3.2')
 }
 
 // CTA grow on hover

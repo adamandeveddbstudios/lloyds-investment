@@ -44,8 +44,8 @@ function animate() {
     .to(['#copy3'], 1, { left: '42px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=.6')
     .to(['#horse'], 1, { left: '133px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=.6')
     .to(['#logo_text'], 1, { left: '115px', autoAlpha: 1, ease: "power1.inOut", yoyo: true }, 'frame3+=.7')
-    .to(['#horse'], 1, { autoAlpha: 0, ease: "power1.inOut", }, 'frame3+=1.5')
-    .to(['#horse_gif'], 1, { autoAlpha: 1, ease: "power1.inOut", yoyo: true }, '<')
+    // .to(['#horse'], 1, { autoAlpha: 0, ease: "power1.inOut", }, 'frame3+=1.5')
+    // .to(['#horse_gif'], 1, { autoAlpha: 1, ease: "power1.inOut", yoyo: true }, '<')
 
 
     .to(['#copy4'], { autoAlpha: 1, ease: "power1.inOut", }, 'frame3+=1.7')
