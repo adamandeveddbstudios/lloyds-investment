@@ -21,7 +21,7 @@
             text-decoration: none;
             background-color: #6cf479;
             height: 40px;
-            width: 130px;
+            width: 180px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -34,7 +34,6 @@
         }
         .links a{
             cursor: pointer;
-
         }
         .frame{
             margin-bottom: 30px;
@@ -42,50 +41,46 @@
         h4{
             margin-bottom: 5px;
         }
+        .frames{
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+        .frame{
+            display: flex;
+            flex-direction: column;
+        }
     </style>
 </head>
 <body>
     <img src="https://i.pinimg.com/originals/ed/5c/f7/ed5cf7bb88d7400b064a38a874045fb3.png" alt="">
     <h1>Lloyds Investment Display Banners</h1>
     <div class="links">
-        <a href="./300x250 v1/index.html">300x250 v1</a>
-        <a href="./300x250 v2/index.html">300x250 v2</a>
-        <a href="./300x250 v3/index.html">300x250 v3</a>
-        <a href="./300x250 v3.1/index.html">300x250 v3.1</a>
+        <a href="./300x250/index.html">300x250</a>
+        <a href="./300x250_static_logo/index.html">300x250 Static Logo</a>
         <a href="./300x600/index.html">300x600</a>
+        
         <!-- <a href="./320x480/index.html">320x480</a> -->
     </div>
     <br>
     <br>
     <br>
 
-    <div class="frame">
-        <h4>300x250 v3.1</h4>
-        <iframe src="./300x250 v3.1/index.html" width="300px" height="250px" frameborder="0"></iframe>
-    </div>
-
-    <div class="frame">
-        <h4>300x250 v3</h4>
-        <iframe src="./300x250 v3/index.html" width="300px" height="250px" frameborder="0"></iframe>
-    </div>
-
-    <div class="frame">
-        <h4>300x250 v2</h4>
-        <iframe src="./300x250 v2/index.html" width="300px" height="250px" frameborder="0"></iframe>
-    </div>
-
-    <div class="frame">
-        <h4>300x250 v1</h4>
-        <iframe src="./300x250 v1/index.html" width="300px" height="250px" frameborder="0"></iframe>
-    </div>
+    <div class="frames">
+        <div class="frame">
+            <h4>300x250</h4>
+            <iframe src="./300x250/index.html" width="300px" height="250px" frameborder="0"></iframe>
+        </div>
     
-
-
-  
+        <div class="frame">
+            <h4>300x250 Static Logo</h4>
+            <iframe src="./300x250_static_logo/index.html" width="300px" height="250px" frameborder="0"></iframe>
+        </div>
     
-    <div class="frame">
-        <h4>300x600</h4>
-        <iframe src="./300x600/index.html" width="300px" height="600px" frameborder="0"></iframe>
+        <div class="frame">
+            <h4>300x600</h4>
+            <iframe src="./300x600/index.html" width="300px" height="600px" frameborder="0"></iframe>
+        </div>
     </div>
 </body>
 </html>
