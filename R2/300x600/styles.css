@@ -198,6 +198,9 @@ sup {
   margin-bottom: -5px;
   overflow: hidden;
 }
+.copy2 div:nth-child(4), div:nth-child(5){
+  height: 56px;
+}
 
 .copy2 span {
   position: absolute;
